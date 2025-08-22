@@ -1,9 +1,13 @@
 # RichPrint
 
-A clean wrapper for Rich that lets you print with color, background, style, or presets using a chainable syntax.
+RichPrint is a tiny wrapper around Rich that gives you a chainable, fluent way to print styled text. You keep writing `show()`, then chain styles.
 
-## Install
+## Features
+- Chainable API: `RichPrint.bold().green().underline().show("Hello")`
+- Drop-in feel for `print()`, but actually readable
+- Minimal surface area, built on Rich
+
+## Installation
 
 ```bash
 pip install richprint
-```
